@@ -1,0 +1,54 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+img{
+    display: black;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border: 2px solid gray;
+    border-radius: 100%;
+    transition: 2s all ease;
+
+}
+
+img:hover{
+    transition: 2s all ease;
+    transform: scale(1.2) rotate(10deg);
+
+}
+
+#tabla1{
+    color: black;
+    text-align: left;
+    background: rgb(26, 216, 9);
+    background: rgb(100% 100%, 100%)
+}
+#C{
+    color: wheat;
+}
+
+
+
+ab{
+    display: block;
+    color: azure;
+    text-decoration: none;
+    width: 100px;
+    height: 25px;
+    margin: 10px auto;
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px ridge white;
+
+}
+ab:hover{
+    box-shadow: 0 0 5px;
+    border: 1px solid black;
+    background: cyan ;
+    color: black;
+    transform: scale(1.0999);
+}
